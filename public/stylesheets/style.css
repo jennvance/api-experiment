@@ -1,0 +1,357 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+body {
+       padding-bottom: 45px;
+       font-family: 'Open Sans', sans-serif;
+       margin: 0 auto;
+       width: 90%;
+}
+ 
+
+
+h1 {
+       font-size: 30px;
+       font-weight: 900;
+       margin-bottom: 0px;
+       margin-top: 15px;
+}
+
+h4 {
+       color: #36A0C9;
+       font-weight: 300;
+       font-size: 18px;
+       margin: 8px 8px 8px 0px;
+}
+
+h6 {
+       font-weight: normal;
+       margin: 8px 8px 8px 0px;
+       font-size: 12px;
+}
+ 
+button {
+       padding: 15px;
+       padding-left: 25px;
+       padding-right: 25px;
+       font-size: 14px;
+       margin: 0px;
+       font-family: 'Open Sans', sans-serif;
+       border: none;
+}
+ 
+img {
+       max-width: 100%;
+}
+ 
+nav {
+       background-color: #303436;
+}
+
+.clear-fix:after {
+       /*visibility: hidden;*/
+       display: block;
+       font-size: 0;
+       content: ".";
+       clear: both;
+       height: 0;
+}
+ 
+ /*Developer University Nav Bar*/
+.nav a{
+       font-size: 12px;
+       float: left;
+       padding: 12px 14px 10px 15px;
+       color: #F0F2F2;
+       text-decoration: none;
+       margin-right: 0px;
+}
+ 
+a.dev-u {
+       font-size: 14px;
+}
+ 
+.active-tab {
+       font-size: 12px;
+       padding-top: 12px;
+       background-color: #1E2021;
+       height: 20px;
+}
+ 
+ /*Positive and Negative*/
+.positive {
+       color: #14790B;
+}
+ 
+.negative {
+       color: #990505;
+}
+ 
+ /*Title/Heading Container*/
+.heading-container {
+       padding-top: 0px;
+       padding-bottom: 10px;
+       border-bottom: 1px solid lightgray; }
+
+/*Ticker*/
+.schwab-st {
+       color: gray;
+       font-size: 18px;
+       font-weight: 900;
+       margin-bottom: 0px;
+       margin-top: 15px;
+}
+ 
+/*Nasdaq:*/
+.exchange-name {
+       color: gray;
+       font-size: 18px;
+       font-weight: 900;
+       margin-bottom: 0px;
+       margin-top: 15px;
+}
+
+.exchange-ticker {
+       color: gray;
+       font-size: 18px;
+       font-weight: 900;
+       margin-bottom: 0px;
+       margin-top: 15px;
+}
+ 
+.title-module {
+       float: left;
+}
+
+.title-module th {
+       font-weight: normal;
+       font-size: 11px;
+       text-align: right;
+       padding-right: 15px;
+}
+
+.title-module td {
+       font-weight: bold;
+       font-size: 24px;
+       padding: 0px 15px 0px 15px;
+       line-height: 1;
+}
+
+
+/*Button styling */
+.buttons-module {
+       float: right;
+       margin-top: 10px;
+       margin-bottom: 20px;
+}
+
+button.wl {
+       background-color: #E8E8E8;
+}
+ 
+button.trade {
+       background-color: #36A0C9;
+       color: white;
+}
+ 
+.buttons-module p, time {
+       font-size: 12px;
+       text-align: right;
+       margin-bottom: 3px;
+}
+ 
+ /*Chart*/
+.chart-container {
+       float: left;
+       width: 65%;
+       padding-top: 3%;
+}
+
+ul.chart {
+       list-style-type: none;
+       padding-left: 0px;
+       border-bottom: 1px solid #E8E8E8;
+       margin-bottom: 0px;
+}
+ 
+ .chart-container a.active {
+       background-color: white;
+       color: gray;
+       border-top: 1px solid lightgray;
+       border-left: 1px solid lightgray;
+       border-right: 1px solid lightgray;
+       margin-bottom: -1px;
+}
+
+.chart-container li > a {
+       font-size: 14px;
+       float: left;
+       padding: 10px 15px 10px 15px;
+	   color: black;
+       background-color: #E8E8E8;
+       border-left: 1px solid white;
+	   text-decoration: none;
+}
+
+a.active {
+       background-color: white;
+       color: gray;
+       border-top: 1px solid lightgray;
+       border-left: 1px solid lightgray;
+       border-right: 1px solid lightgray;
+       margin-bottom: -1px;
+}
+ 
+ /*Details Table*/
+table.stock-details {
+       border-collapse: collapse;
+       border-spacing: 0px;
+       padding-top: 0px;
+       float: right;
+       width: 33%;
+       margin-right: 0px;
+       margin-top: 45px;
+}
+ 
+.details tr{
+       border-top: 1px solid lightgray;
+}
+ 
+.details th {
+       font-weight: normal;
+       font-size: 12px;
+       text-align: left;
+       padding: 8px;
+}
+
+.details td{
+       font-weight: bold;
+       font-size: 12px;
+       text-align: right;
+}
+
+.heading-2 {
+       font-size: 26px;
+       text-align: left;
+       color: #A3A3A3;
+       font-weight: 300;
+       margin-bottom: 5px;
+}
+
+.shaded {
+       background-color: #F5F5F5;
+}
+
+.bottom-border {
+       border-bottom: 1px solid lightgray; }
+
+/*Recent Headlines*/
+ .left-container {
+       float: left;
+       width: 49%;
+}
+
+.left-container h3 {
+       /*float: left;*/
+}
+
+a.read-more {
+       color: #36A0C9;
+       font-size: 15px;
+       text-decoration: none;
+}
+ 
+.main-article {
+       border-top: 1px solid lightgray;
+}
+
+ .main-article p {
+       font-size: 14px;
+       margin-top: 0px;
+}
+ 
+.left-article {
+       float: left;
+       width: 49%;
+}
+ 
+.right-article {
+       float: right;
+       width: 49%;
+}
+ 
+.article-source {
+       color: lightgray;
+}
+
+.addtl-articles-block {
+       border-top: 1px dashed lightgray; }
+ 
+.get-latest {
+       color: #36A0C9;
+       padding-left: 242px;
+       font-size: 14px;
+}
+ 
+ /*Company Profile*/
+.right-container {
+       float: right;
+       width: 49%;
+}
+ 
+ div.biz-summary {
+       float: left;
+       width: 47%;
+ }
+
+ .biz-summary p {
+       font-size: 14px;
+       margin-top: 0px;
+ }
+ 
+ .biz-summary h5 {
+        font-size: 15px;
+       font-weight: 300;
+       margin-top: 10px;
+       margin-bottom: 10px;
+ }
+
+div.contact-info {
+       float: right;
+       width: 47%;
+}
+ 
+.contact-info h5 {
+       font-size: 15px;
+       font-weight: 300;
+       margin-top: 10px;
+       margin-bottom: 10px;
+}
+ 
+.contact-info h6 {
+       font-size: 12px;
+       font-weight: bold;
+       color: #A3A3A3;
+       margin-bottom: 0px;
+       margin-left: 0px;
+}
+ 
+.contact-info p {
+       font-size: 14px;
+       margin: 0px;
+}
+
+a.company-link {
+       color: #36A0C9;
+       font-size: 15px;
+       text-decoration: none;
+}
+ 
+.gray-border {
+       border-top: 1px solid lightgray;
+}
